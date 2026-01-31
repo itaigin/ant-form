@@ -10,7 +10,8 @@ import {
     MIN_EXPERIENCE,
     NAME_RULES,
     NOTES_RULES,
-    PASSWORD_RULES
+    PASSWORD_RULES,
+    PHONE_RULES
 } from "../utils/rules.ts";
 import dayjs from 'dayjs';
 import { DEFAULT_VALUE, type IFormItems, POSITION_OPTIONS } from "../utils/constants.ts";
@@ -115,6 +116,7 @@ export const AntForm = () => {
                     <Form.Item
                         name="phone"
                         label="Номер телефона"
+                        rules={PHONE_RULES}
                     >
                         <Input />
                     </Form.Item>

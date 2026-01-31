@@ -67,6 +67,10 @@ export const EMAIL_RULES: Rule[] = [
     { type: 'email', message: 'Некорректный email' }
 ];
 
+export const PHONE_RULES: Rule[] = [
+    { type: "tel", message: "Некорректный номер телефона" }
+];
+
 const NOTES_MAX_LENGTH = 400;
 export const NOTES_RULES: Rule[] = [
     { max: NOTES_MAX_LENGTH, message: maxLengthMessage(NOTES_MAX_LENGTH) },
