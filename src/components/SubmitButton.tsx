@@ -1,5 +1,5 @@
 import { Button, type FormInstance } from "antd";
-import { useCanSave } from "./useCanSave.ts";
+import { useCanSave } from "../hooks/useCanSave.ts";
 
 interface ISubmitButtonProps {
     form: FormInstance;
@@ -15,6 +15,7 @@ export const SubmitButton = ({ form, onSubmit }: ISubmitButtonProps) => {
             type="primary"
             size="large"
             onClick={onSubmit}
+            htmlType="submit"
         >
             Сохранить
         </Button>

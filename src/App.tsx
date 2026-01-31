@@ -1,5 +1,5 @@
 import './App.css'
-import { AntForm } from "./form/AntForm.tsx";
+import { AntForm } from "./components/AntForm.tsx";
 
 function App() {
   return (

@@ -11,9 +11,9 @@ import {
     NAME_RULES,
     NOTES_RULES,
     PASSWORD_RULES
-} from "./rules.ts";
+} from "../utils/rules.ts";
 import dayjs from 'dayjs';
-import { DEFAULT_VALUE, type IFormItems, POSITION_OPTIONS } from "./constants.ts";
+import { DEFAULT_VALUE, type IFormItems, POSITION_OPTIONS } from "../utils/constants.ts";
 import { FormRow } from "./FormRow.tsx";
 
 const NOTES_ROWS = 3;

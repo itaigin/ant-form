@@ -18,8 +18,6 @@ export const FormActions = ({ form, isReadOnly, onSave, onCancel, onChange }: IF
         )
     }
 
-    console.log("rerender");
-
     return (
         <Space>
             <SubmitButton form={form} onSubmit={onSave} />
